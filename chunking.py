@@ -387,7 +387,7 @@ async def process_local_file(file_path: str):
 async def main():
     
     # 🚨 مسیر فایل را بررسی کنید.
-    local_document_file = r"C:\Users\KIMI\Desktop\n8n-local\crawl4AI-agent\doc\New Microsoft Word Document.docx"
+    local_document_file = r"YOURFILE"
     
     if not os.path.exists(local_document_file):
         print(f"❌ Document file not found at: {local_document_file}")
